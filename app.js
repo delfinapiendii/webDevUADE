@@ -11,4 +11,8 @@ let diasVividos = (2024 - añoNacimiento) * 365
 
 alert(`Bienvenido ${nombre} ${apellido}, has vivido ${diasVividos} días aproximadamente.`);
 
-
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('enviarBtn').addEventListener('click', function() {
+        alert('Gracias por su consulta.');
+    });
+});
