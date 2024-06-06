@@ -16,3 +16,19 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Gracias por su consulta.');
     });
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElemefntById('ocultar-btn').addEventListener('click', function() {
+        $(".mi-imagen").hide();
+        $("h1").text("¡No tenemos ninguna imagen!");
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('mostrar-btn').addEventListener('click', function() {
+        $(".mi-imagen").show();
+        $("h1").text("¡Mirá la siguiente imagen! ");
+    });
+});
