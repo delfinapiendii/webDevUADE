@@ -453,3 +453,8 @@ footer a {
     }
     
 }
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
