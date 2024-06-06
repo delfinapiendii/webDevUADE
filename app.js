@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Gracias por su consulta.');
     });
 });
-
 document.addEventListener('DOMContentLoaded', function() {
+
     document.getElementById('ocultar-btn').addEventListener('click', function() {
         $(".mi-imagen").hide();
         $("h1").text("¡No tenemos ninguna imagen!");
